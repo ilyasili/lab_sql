@@ -71,7 +71,7 @@ CREATE TABLE Files
     FOREIGN KEY (task_id) REFERENCES Tasks(task_id)
   );
 
--- Вставка даних в таблицю "Files"
+Вставка даних в таблицю "Files"
 INSERT INTO Files (file_id, file_name, file_url, project_id, task_id) VALUES
   (1, 'File1', 'https://example.com/file1', 1, NULL),
   (2, 'File2', 'https://example.com/file2', NULL, 1),
